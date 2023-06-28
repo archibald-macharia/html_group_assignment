@@ -1,3 +1,11 @@
 header {
   background-color: red;
 }
+
+.row {
+  display: inline-block;
+}
+/* .column {
+  flex: 33.3;
+  padding: 0px;
+} */
