@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Movie Website</title>
   </head>
   <body>
     <header>
+      <h2 class="Entertainment">Find your favourite movies here</h2>
       <nav></nav>
     </header>
     <main>
@@ -16,7 +17,18 @@
         <audio src=""></audio>
       </section>
       <article></article>
-      <form action=""></form>
+      <form action="" method="get">
+          <select name="dropdown">
+            <option>Select an option</option>
+            <option value="movies">Movies</option>
+            <option value="series">Series</option>
+            <option value="animation">Animation</option>
+          </select><br><br>
+          <input type="file" name = "file upload" accept = "image/*"><br><br>
+          <input type="checkbox" name="subscribe" id="subscribe">
+          <label for="subscribe">Subscribe</label><br><br>
+          <button type="submit">Submit</button>
+      </form>
     </main>
     <footer></footer>
   </body>
